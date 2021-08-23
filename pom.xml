@@ -20,11 +20,11 @@
     </scm>
 
     <properties>
-        <solr.version>8.6.3</solr.version>
-        <tika.version>1.24.1</tika.version>
+        <solr.version>8.8.2</solr.version>
+        <tika.version>1.26</tika.version>
         <projectrelease.version>3.4.0</projectrelease.version>
         <javafx.version>14.0.2.1</javafx.version>
-        <corenlp.version>4.0.0</corenlp.version>
+        <corenlp.version>4.2.2</corenlp.version>
         <restlet.version>2.4.3</restlet.version>
     </properties>
 
@@ -63,7 +63,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.1.2</version>
+                <version>3.2.0</version>
                 <executions>
                     <execution>
                         <id>corenlp</id>
@@ -197,38 +197,38 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.11</version>
+            <version>3.12.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
-            <version>2.3.30</version>
+            <version>2.3.31</version>
         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.1</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.30</version>
+            <version>1.7.32</version>
         </dependency>
 
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.10.0.pr1</version>
+            <version>2.12.4</version>
         </dependency>
 
         <dependency>
             <groupId>org.controlsfx</groupId>
             <artifactId>controlsfx</artifactId>
-            <version>11.0.2</version>
+            <version>11.1.0</version>
         </dependency>
 
         <dependency>
@@ -240,13 +240,13 @@
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-core</artifactId>
-            <version>3.3.10.RELEASE</version>
+            <version>3.4.8</version>
         </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.16</version>
+            <version>1.18.20</version>
             <scope>provided</scope>
         </dependency>
 
@@ -265,7 +265,7 @@
         <dependency>
             <groupId>io.methvin</groupId>
             <artifactId>directory-watcher</artifactId>
-            <version>0.10.1</version>
+            <version>0.15.0</version>
         </dependency>
 
         <dependency>
